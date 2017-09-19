@@ -2,7 +2,7 @@
   "name": "catanoel",
   "version": "1.0.0",
   "description": "catalogue de jouets",
-  "main": "serveur.js",
+  "main": "servesr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
