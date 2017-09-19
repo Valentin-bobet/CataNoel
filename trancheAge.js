@@ -22,4 +22,4 @@ class TrancheAge {
         return 'Tranche : '+this._ageMin+ ' and e ' + this._ageMax+' ans';
     }
 }
-modume.exports = TrancheAge;
+module.exports = TrancheAge;
