@@ -1,0 +1,19 @@
+{
+  "name": "catanoel",
+  "version": "1.0.0",
+  "description": "catalogue de jouets",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentin-bobet/CataNoel.git"
+  },
+  "author": "Bobey",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Valentin-bobet/CataNoel/issues"
+  },
+  "homepage": "https://github.com/Valentin-bobet/CataNoel#readme"
+}
