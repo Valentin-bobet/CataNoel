@@ -1,6 +1,7 @@
 class Jouet {
 
-    constructor(unLibelle, uneTrancheAge, uneCategorie){
+    constructor(unId,unLibelle, uneTrancheAge, uneCategorie){
+        this._id = unId;
         this._libelle = unLibelle;
         this._trancheAge = uneTrancheAge;
         this._categorie = uneCategorie;
