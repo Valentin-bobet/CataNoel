@@ -19,7 +19,7 @@ class TrancheAge {
     }
 
     toString(){
-        return 'Tranche : '+this._ageMin+ ' and e ' + this._ageMax+' ans';
+        return 'Tranche : '+this._ageMin+ ' and ' + this._ageMax+' ans';
     }
 }
 module.exports = TrancheAge;
