@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const Jouet = require('./Jouet.js');
-const TrancheAge = require('./trancheAge.js');
+const TrancheAge = require('./TrancheAge.js');
 const Categorie = require('./Categorie.js');
 
 const app = express();

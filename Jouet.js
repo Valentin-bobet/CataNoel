@@ -1,5 +1,4 @@
 class Jouet {
-
     constructor(unId,unLibelle, uneTrancheAge, uneCategorie){
         this._id = unId;
         this._libelle = unLibelle;
@@ -22,7 +21,7 @@ class Jouet {
         return this._categorie.libelle;
     }
 
-    convenir(unAge){
+/*    convenir(unAge){
         switch(unAge){
             case unAge<this.trancheAge.ageMin:
                 return 0;//textNon = "Le jouet ne convient pas à l'age de l'enfant";
@@ -34,7 +33,10 @@ class Jouet {
                 return 0;//textNon;
                 break;
         }
-    }
+    }*/
 
+    convenir(unAge){
+        return (unAge>= this._trancheAge.ageMin && unAge<=this._trancheAge.ageMax);
+    }
 }
 module.exports = Jouet;

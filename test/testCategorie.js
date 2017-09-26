@@ -1,5 +1,5 @@
 const Categorie = require('../Categorie');
-const TrancheAge = require('../trancheAge');
+const TrancheAge = require('../TrancheAge');
 const Jouet = require('../Jouet');
 
 const assert = require('assert');
@@ -12,6 +12,7 @@ describe("Categorie",() =>{
         let tranche25;
 
         before(function () {
+
             categorie1 = new Categorie(1,"Plein Air");
             tranche25 = new TrancheAge(1,"tranche25",2,5);
             unJouet = new Jouet(1,"Draisienne junior bleue",tranche25,categorie1);

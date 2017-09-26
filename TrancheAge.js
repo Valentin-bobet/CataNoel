@@ -1,6 +1,6 @@
 class TrancheAge {
 
-    construcor(id,libelle, ageMin,ageMax){
+    constructor(id,libelle, ageMin,ageMax){
         this._id = id;
         this._libelle = libelle;
         this._ageMax = ageMax;
