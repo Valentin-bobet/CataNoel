@@ -9,14 +9,10 @@ describe("Jouet",() =>{
         let categorie1;
         let unJouet;
         let tranche25;
-        let ageMin;
-        let ageMax;
 
         before(function () {
             categorie1 = new Categorie("Plein Air");
-            ageMax = 5;
-            ageMin = 2
-            tranche25 = new TrancheAge("tranche25",ageMin,ageMax);
+            tranche25 = new TrancheAge("tranche25",2,5);
             unJouet = new Jouet("Draisienne junior bleue", tranche25,categorie1);
         });
 
