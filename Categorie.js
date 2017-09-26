@@ -1,6 +1,7 @@
 class Categorie {
 
-    constructor(unLibelle){
+    constructor(unId,unLibelle){
+        this._id = unId;
         this._libelle = unLibelle;
         this._lesJouets = [];
     }
