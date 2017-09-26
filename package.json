@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Valentin-bobet/CataNoel#readme",
   "dependencies": {
+    "express": "^4.15.5",
     "describe": "latest"
   }
 }
