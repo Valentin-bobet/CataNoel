@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const Jouet = require('./jouet.js');
+const Jouet = require('./Jouet.js');
 const TrancheAge = require('./trancheAge.js');
-const Categorie = require('./categorie.js');
+const Categorie = require('./Categorie.js');
 
     // DONNEES
 let tranche02 =  new TrancheAge("tranche02",0,2);
