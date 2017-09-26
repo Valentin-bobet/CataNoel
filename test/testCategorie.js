@@ -1,5 +1,3 @@
-import * as describe from "describe";
-
 const Categorie = require('../Categorie');
 const TrancheAge = require('../trancheAge');
 const Jouet = require('../Jouet');
@@ -19,7 +17,7 @@ describe("Categorie",() =>{
             unJouet = new Jouet("Draisienne junior bleue",tranche25,categorie1);
         });
 
-        it("Ajoute d'un jouet",() =>{
+        it("Ajout d'un jouet",() =>{
 
             assert.equal(categorie1.get_nb_jouets(),1,'Ajout non réalisé');
         });

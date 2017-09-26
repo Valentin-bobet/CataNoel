@@ -21,5 +21,19 @@ class Jouet {
         return this._categorie.libelle;
     }
 
+    convenir(unAge){
+        switch(unAge){
+            case unAge<this.trancheAge.ageMin:
+                return 0;//textNon = "Le jouet ne convient pas à l'age de l'enfant";
+                break;
+            case unAge>=this.trancheAge.ageMin && unAge<=this.trancheAge.ageMax:
+                return 1;//"Le jouet convient à l'age de l'enfant";
+                break;
+            case unAge>this.trancheAge.ageMax:
+                return 0;//textNon;
+                break;
+        }
+    }
+
 }
 module.exports = Jouet;
